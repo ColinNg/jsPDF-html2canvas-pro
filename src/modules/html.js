@@ -27,7 +27,7 @@ import { globalObject } from "../libs/globalObject.js";
       }
 
       // @if MODULE_FORMAT='es'
-      return import("html2canvas");
+      return import("html2canvas-pro");
       // @endif
 
       // @if MODULE_FORMAT!='es'

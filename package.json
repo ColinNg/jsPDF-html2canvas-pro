@@ -1,6 +1,6 @@
 {
-  "name": "jspdf",
-  "version": "2.5.1",
+  "name": "@zendostrike/jspdf-html2canvas-pro",
+  "version": "0.0.0",
   "homepage": "https://github.com/mrrio/jspdf",
   "description": "PDF Document creation from JavaScript",
   "main": "dist/jspdf.node.min.js",
@@ -32,7 +32,7 @@
     "canvg": "^3.0.6",
     "core-js": "^3.6.0",
     "dompurify": "^2.2.0",
-    "html2canvas": "^1.0.0-rc.5"
+    "html2canvas-pro": "1.5.8"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
