@@ -1,8 +1,8 @@
 {
   "name": "@zendostrike/jspdf-html2canvas-pro",
   "version": "0.0.0",
-  "homepage": "https://github.com/mrrio/jspdf",
-  "description": "PDF Document creation from JavaScript",
+  "homepage": "https://github.com/zendostrike/jsPDF-html2canvas-prof",
+  "description": "jsPDF fork but using html2canvas-pro. This is a temporary workaround.",
   "main": "dist/jspdf.node.min.js",
   "module": "dist/jspdf.es.min.js",
   "browser": "dist/jspdf.es.min.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrRio/jsPDF.git"
+    "url": "https://github.com/zendostrike/jsPDF-html2canvas-prof"
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
