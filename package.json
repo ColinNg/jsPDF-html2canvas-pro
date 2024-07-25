@@ -1,6 +1,6 @@
 {
   "name": "@zendostrike/jspdf-html2canvas-pro",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/zendostrike/jsPDF-html2canvas-pro",
   "description": "jsPDF fork but using html2canvas-pro. This is a temporary workaround.",
   "main": "dist/jspdf.node.min.js",
@@ -15,12 +15,12 @@
   "typings": "types/index.d.ts",
   "types": "types/index.d.ts",
   "keywords": [
-    "pdf"
+    "pdf", "jspdf", "html2canvas"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zendostrike/jsPDF-html2canvas-prof"
+    "url": "https://github.com/zendostrike/jsPDF-html2canvas-pro"
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
