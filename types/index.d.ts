@@ -49,7 +49,7 @@
  *    kim3er, mfo, alnorth, Flamenco
  */
 
-declare module "jspdf" {
+declare module "@colinng/jsPDF-html2canvas-pro" {
   export interface Annotation {
     type: "text" | "freetext" | "link";
     title?: string;

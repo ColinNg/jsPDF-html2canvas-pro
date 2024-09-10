@@ -1,3 +1,30 @@
+This is a fork of:
+
+- [npm @zendostrike/jspdf-html2canvas-pro](https://www.npmjs.com/package/@zendostrike/jspdf-html2canvas-pro)
+- [GitHub: zendostrike/jsPDF-html2canvas-pro](https://github.com/zendostrike/jsPDF-html2canvas-pro)
+
+to fix the compilation error
+
+```error
+File '.../node_modules/@zendostrike/jsPDF-html2canvas-pro/types/index.d.ts' is not a module.
+```
+
+by changing `/types/index.d.ts` so the module name...
+
+```typescript
+declare module "jspdf" {
+```
+
+...now matches the npm package name
+
+```typescript
+declare module "@colinng/jsPDF-html2canvas-pro" {
+```
+
+---
+
+zendostrike's ReadMe:
+
 > [!CAUTION]
 > Do not use this on a production environment
 
