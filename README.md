@@ -18,7 +18,7 @@ declare module "jspdf" {
 ...now matches the npm package name
 
 ```typescript
-declare module "@zendostrike/jsPDF-html2canvas-pro" {
+declare module "@colinng/jsPDF-html2canvas-pro" {
 ```
 
 ---
