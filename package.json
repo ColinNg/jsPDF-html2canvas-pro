@@ -1,6 +1,6 @@
 {
   "name": "@colinng/jspdf-html2canvas-pro",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/colinng/jsPDF-html2canvas-pro",
   "description": "jsPDF fork but using html2canvas-pro. This is a temporary workaround.",
   "main": "dist/jspdf.node.min.js",

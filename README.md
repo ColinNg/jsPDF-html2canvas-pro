@@ -18,7 +18,13 @@ declare module "jspdf" {
 ...now matches the npm package name
 
 ```typescript
-declare module "@colinng/jsPDF-html2canvas-pro" {
+declare module "@colinng/jspdf-html2canvas-pro" {
+```
+
+The declared module name has to be all-lowercase to prevent newer versions of node failing to compile with:
+
+```error
+Error: src/app/shared/services/pdf-export.service.ts:2:23 - error TS2307: Cannot find module '@colinng/jsPDF-html2canvas-pro' or its corresponding type declarations.
 ```
 
 ---
